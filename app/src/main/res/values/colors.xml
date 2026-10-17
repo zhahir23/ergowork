@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Clean UI Palette -->
+    <color name="ergo_primary">#047857</color> <!-- Deep Emerald -->
+    <color name="ergo_primary_dark">#064E3B</color>
+    <color name="ergo_secondary">#34D399</color> <!-- Light Teal/Mint (Accents) -->
+
+    <color name="ergo_background_light">#F8FAFC</color> <!-- Slate 50 (App Background) -->
+    <color name="ergo_background_dark">#0F172A</color> <!-- Slate 900 (Dark Camera Background) -->
+    <color name="ergo_card_bg">#FFFFFFFF</color> <!-- Clean White (Card Background) -->
+
+    <!-- High Contrast Texts -->
+    <color name="ergo_text_primary">#0F172A</color> <!-- Slate 900 (Very Dark, Great Contrast) -->
+    <color name="ergo_text_secondary">#475569</color> <!-- Slate 600 (Dark Gray, Accessible) -->
+
+    <color name="ergo_warning_red">#DC2626</color> <!-- Stronger Red for Alerts -->
+    <color name="ergo_warning_bg">#FEF2F2</color>
+
+    <color name="ergo_divider">#E2E8F0</color> <!-- Slate 200 (Subtle borders if needed) -->
+</resources>

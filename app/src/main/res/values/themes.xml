@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ergo_Work" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/ergo_primary</item>
+        <item name="colorPrimaryDark">@color/ergo_primary_dark</item>
+        <item name="colorAccent">@color/ergo_secondary</item>
+
+        <!-- Fix Status Bar Color (Remove Default Purple) -->
+        <item name="android:statusBarColor">@color/ergo_card_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Ergo_Work" parent="Base.Theme.Ergo_Work" />
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ergo_background_light"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="24dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="4dp"
+        android:src="@android:drawable/ic_menu_revert"
+        app:tint="@color/ergo_text_primary" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:src="@android:drawable/ic_dialog_email"
+        app:tint="@color/ergo_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Verifikasi Kode OTP"
+        android:textColor="@color/ergo_text_primary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvOtpMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Kami telah mengirimkan 4 digit kode ke email\nuser@example.com"
+        android:textColor="@color/ergo_text_secondary"
+        android:textSize="14sp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/ergo_card_bg"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etOtp1"
+                    android:layout_width="56dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_security_pill"
+                    android:backgroundTint="@color/ergo_background_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/ergo_text_primary"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <View android:layout_width="12dp" android:layout_height="0dp" />
+
+                <EditText
+                    android:id="@+id/etOtp2"
+                    android:layout_width="56dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_security_pill"
+                    android:backgroundTint="@color/ergo_background_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/ergo_text_primary"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <View android:layout_width="12dp" android:layout_height="0dp" />
+
+                <EditText
+                    android:id="@+id/etOtp3"
+                    android:layout_width="56dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_security_pill"
+                    android:backgroundTint="@color/ergo_background_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/ergo_text_primary"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <View android:layout_width="12dp" android:layout_height="0dp" />
+
+                <EditText
+                    android:id="@+id/etOtp4"
+                    android:layout_width="56dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_security_pill"
+                    android:backgroundTint="@color/ergo_background_light"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/ergo_text_primary"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnVerifyOtp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/ergo_primary"
+                android:text="Verifikasi Kode"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum menerima kode? "
+            android:textColor="@color/ergo_text_secondary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvResend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim Ulang (00:30)"
+            android:textColor="@color/ergo_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

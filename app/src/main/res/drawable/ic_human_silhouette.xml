@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="240dp"
+    android:viewportWidth="120"
+    android:viewportHeight="240">
+
+    <!-- Head -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M60,30m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+
+    <!-- Torso -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M35,60 L85,60 C90,60 92,62 92,65 L88,140 L32,140 L28,65 C28,62 30,60 35,60 Z" />
+
+    <!-- Left Arm -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M25,65 L10,130 C9,135 12,138 15,138 L25,138 L30,65 Z" />
+
+    <!-- Right Arm -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M95,65 L110,130 C111,135 108,138 105,138 L95,138 L90,65 Z" />
+
+    <!-- Left Leg -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M35,142 L55,142 L55,220 C55,225 50,225 45,225 L35,225 Z" />
+
+    <!-- Right Leg -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M65,142 L85,142 L85,225 C80,225 75,225 65,220 Z" />
+</vector>
